@@ -1,0 +1,14 @@
+.imageCard {
+  height: 100%;
+}
+
+.image {
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
