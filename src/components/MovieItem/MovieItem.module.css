@@ -1,0 +1,30 @@
+.trendingThumb {
+  height: 130px;
+  /* width: 350px; */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(70, 71, 73);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+}
+
+.trendingTitle {
+  color: #f0f0f0;
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+.trendingText {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  color: #031b31;
+}
+
+.movieImg {
+  width: 100%;
+}

@@ -3,16 +3,13 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  color: #000;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #183a72;
+  color: #f6f6f6;
 }
 
 button {
+  composes: body;
   cursor: pointer;
 }
 
@@ -41,4 +38,12 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+#canvas {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
